@@ -5,8 +5,8 @@
 ## TODO
 
 - [x] Create Front End
-- [] Implement Charts
-- [] Get Data From Market API
+- [ ] Implement Charts
+- [ ] Get Data From Market API
 
 ## Stack
 
