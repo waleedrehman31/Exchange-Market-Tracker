@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@1.13.2/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@1.13.2/dist/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <title>Market Exange Tracker</title>
+  </head>
+  <body>
+    <nav>
+      <div
+        class="navbar shadow-lg bg-neutral text-neutral-content rounded-b-lg"
+      >
+        <div class="flex-1 px-2 mx-2">
+          <span class="text-lg font-bold"> Exchange Market Tracker </span>
+        </div>
+        <a href="./index.html" class="btn btn-sm mx-5 btn-primary">Home</a>
+      </div>
+    </nav>
+
+    <section
+      class="
+        container
+        w-full
+        h-full
+        py-3
+        px-2
+        mx-auto
+        flex flex-col
+        justify-center
+      "
+    >
+      <h1 class="mb-5 text-5xl text-center font-bold">Currencies</h1>
+      <div class="overflow-x-auto">
+        <table class="table align-center items-center w-full">
+          <thead>
+            <tr>
+              <th>S/No</th>
+              <th>Name</th>
+              <th>Code</th>
+              <th>Symbol</th>
+            </tr>
+          </thead>
+          <tbody id="currency-table"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
