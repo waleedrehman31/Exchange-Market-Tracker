@@ -5,8 +5,8 @@
 ## TODO
 
 - [x] Create Front End
-- [ ] Implement Charts
-- [ ] Get Data From Market API
+- [x] Get Data From Market API
+- [x] Show Data From On screen
 
 ## Stack
 
@@ -14,17 +14,14 @@
 
 - HTML
 - Tailwind and DailyUI
-- Chart.js
 
 ### Back End
 
 - Vanilla Js
 - Market Api
 
-## Remove after done project
+## CDNs
 
-- Chartjs CDN
-  `<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>`
 - Tailwind CSS and DailyUI
 `
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />

@@ -45,23 +45,45 @@
     </nav>
 
     <section>
-      <div class="hero-content min-h-full bg-gray-750">
+      <div class="hero-content min-h-full bg-gray-700">
         <div class="text-center hero-content">
           <div class="max-w-md">
             <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
             <p class="mb-5">You are here to track the Exchange Market</p>
-            <div>
-              <a href="./currency.html" class="mb-5 mx-2 btn-lg btn btn-primary"
-                >Currencies</a
-              >
-              <a class="mb-5 mx-2 btn-lg btn btn-primary">Get Started</a>
-              <a class="mb-5 mx-2 btn-lg btn btn-primary">Get Started</a>
-              <a class="mb-5 btn btn-lg btn-primary">Get Started</a>
-            </div>
+            <div></div>
           </div>
         </div>
       </div>
     </section>
+
+    <section
+      class="
+        container
+        w-full
+        h-full
+        py-3
+        px-2
+        mx-auto
+        flex flex-col
+        justify-center
+      "
+    >
+      <h1 class="mb-5 text-5xl text-center font-bold">Currencies</h1>
+      <div class="overflow-x-auto">
+        <table class="table align-center items-center w-full">
+          <thead>
+            <tr>
+              <th>S/No</th>
+              <th>Name</th>
+              <th>Code</th>
+              <th>Symbol</th>
+            </tr>
+          </thead>
+          <tbody id="currency-table"></tbody>
+        </table>
+      </div>
+    </section>
+
     <script type="text/javascript" src="config.js"></script>
     <script src="app.js"></script>
   </body>
