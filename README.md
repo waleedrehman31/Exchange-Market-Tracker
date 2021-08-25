@@ -1,4 +1,5 @@
 # Market Tracker
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d3cdd11d-ef5d-4d56-8e1a-5590cbf06047/deploy-status)](https://app.netlify.com/sites/hopeful-mirzakhani-e1bc7d/deploys)
 
 - Creting market tracking website and make awsome UI.
 
