@@ -1,4 +1,4 @@
-const CURRENCY_API_KEY = process.env.CURRENCY_ACCESS_KEY;
+const CURRENCY_API_KEY = secrets.CURRENCY_ACCESS_KEY;
 const CURRENCY_API_URI = `http://api.marketstack.com/v1/currencies?access_key=${CURRENCY_API_KEY}`;
 const currencyTable = document.getElementById("currency-table");
 
